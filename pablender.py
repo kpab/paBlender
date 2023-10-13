@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-df = pd.read_csv("blender_movie.csv", encoding="utf_8")
+df = pd.read_csv("blender_DB.csv", encoding="utf_8")
 
 level_list = [1, 2, 3, 4]
 category_list = ["キャラクター", "建物", "アイテム", "食べ物", "部屋", "その他"]
@@ -19,7 +19,7 @@ st.set_page_config( # ページの設定
 st.title("Blender 動画検索ツール ")
 level = st.radio("難易度",( 1, 2, 3, 4), horizontal=True, index=None)
 category = st.selectbox("カテゴリを選択してください", category_list, index=None)
-keyword = st.text_input('キーワード検索')
+keyword = st.text_input('キーワード検索', help="動画内で使用されているモディファイアやワークスペースでも検索が可能です（例：ソリッド化,ノード、スカルプト）")
 check = st.checkbox("こだわり検索")
 if check:
     begginer_check = st.toggle("初めての人におすすめ")
