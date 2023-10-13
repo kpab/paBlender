@@ -1,14 +1,18 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
 df = pd.read_csv("blender_movie.csv", encoding="utf_8")
 
 level_list = [1, 2, 3, 4]
-category_list = ["キャラクター", "建物", "アイテム", "食べ物"]
+category_list = ["キャラクター", "建物", "アイテム", "食べ物", "部屋", "その他"]
 multi_list = ["初心者おすすめ", "日本語解説", "アニメーション"]
 
+img = Image.open('icon.png')
+
 st.set_page_config( # ページの設定
-    page_title="paBlender"
+    page_title="paBlender",
+    page_icon=img, 
 )
 
 # with st.form(key='form'):
@@ -64,6 +68,6 @@ if(submit_btn):
 
         st.link_button('Youtube', data.url)
 
-    back_btn = st.button('戻る')
+    back_btn = st.button(label='戻る')
     if back_btn:
         st.rerun()
