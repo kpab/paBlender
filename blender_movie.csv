@@ -1,8 +1,15 @@
-Name,Category,Level,url,Beginner,Explanation,Animation,Keyword,Comment
-キャラクター,キャラクター, 1,https://www.youtube.com/watch?v=4yv5BVSwAuQ,1,1,0,キャラクター,Blender初めての人におすすめ
-キャラクター(猿),キャラクター, 1,https://www.youtube.com/watch?v=9AHH3bc7Ras,1,1,0,猿, 
-カプセル錠剤,アイテム,1,https://www.youtube.com/watch?v=Mp_8XHBUTpg,0,1,0,薬, 
-iPhone13,アイテム,2,https://www.youtube.com/watch?v=cgBtDJZCZig,0,1,0,iPhone スマホ, 
-ビル,建物,1,https://www.youtube.com/watch?v=a3o4_ppvpso,0,1,0,ビル, 
-高層ビル群,建物,3,https://www.youtube.com/watch?v=MXz5JL9bqQo,0,1,0, , 
-自動販売機,建物,4,https://www.youtube.com/watch?v=BzTN2yTgTj0,0,0,0, , 
+Name,Category,Level,url,Beginner,Explanation,Animation,Pab,Keyword,Comment
+キャラクター,キャラクター, 1,https://www.youtube.com/watch?v=4yv5BVSwAuQ,1,1,0,1,キャラクター,Blender初めての人におすすめです
+キャラクター(猿),キャラクター, 1,https://www.youtube.com/watch?v=9AHH3bc7Ras,1,1,0,0,猿, 
+カプセル錠剤,アイテム,1,https://www.youtube.com/watch?v=Mp_8XHBUTpg,0,1,0,0,薬, 
+ビル,建物,1,https://www.youtube.com/watch?v=a3o4_ppvpso,0,1,0,1,ビル ブーリアン 配列,配列やブーリアンの使い方が分かるよ!!
+スライム,キャラクター,1,https://www.youtube.com/watch?v=26OTHt7baNk,1,1,0,0,スライム テクスチャ,テクスチャの貼り方が分かるよ
+りんご,食べ物,1,https://www.youtube.com/watch?v=DsNZzUZPhw4,1,1,0,0,りんご,画像の出力の仕方まで分かるよ
+猫,キャラクター,1,https://www.youtube.com/watch?v=uMeXuB82uZc,1,1,0,1,猫 ネコ,基本操作が丁寧に解説されています。ショートカットがテロップで示されていて分かりやすいよ!!
+リアルなかぼちゃ,食べ物,2,https://www.youtube.com/watch?v=7g8PTvwt_O4,0,1,0,0,かぼちゃ ハロウィン,リアルなかぼちゃが作れます
+お化け,キャラクター,2,https://www.youtube.com/watch?v=NRLLlsjoHIo,0,1,1,0,おばけ ハロウィン,布の質感の作り方が分かるよ!アニメーションの説明もあります
+サイバーパンクな夜景,建物,2,https://www.youtube.com/watch?v=oc4A796itag,0,1,0,0,ビル,ノードの使い方が分かるよ
+iPhone13,アイテム,2,https://www.youtube.com/watch?v=cgBtDJZCZig,0,1,0,0,iPhone スマホ,リアルなマテリアル設定ができるよ！
+髪の毛の作り方,キャラクター,3,https://www.youtube.com/watch?v=CLFhJFCNzAA,0,1,0,0,髪,人の顔が無くても、Blenderの猿や他のキャラクターでもできるよ!
+高層ビル群,建物,3,https://www.youtube.com/watch?v=MXz5JL9bqQo,0,1,0,0,ビル 夜景 ノード,ジオメトリノードの使い方が分かるよ
+自動販売機,建物,4,https://www.youtube.com/watch?v=BzTN2yTgTj0,0,0,0,0,自販機 英語, 
