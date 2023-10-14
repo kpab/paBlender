@@ -16,7 +16,10 @@ st.set_page_config( # ページの設定
 )
 
 # with st.form(key='form'):
-st.title("Blender 動画検索ツール ")
+st.title("paBlender ")
+st.text('- Blender動画検索ツール -')
+st.caption('Blenderの動画を検索することができます')
+st.caption('難易度やカテゴリで絞ることができるよ!')
 level = st.radio("難易度",( 1, 2, 3, 4), horizontal=True, index=None)
 category = st.selectbox("カテゴリを選択してください", category_list, index=None)
 keyword = st.text_input('キーワード検索', help="動画内で使用されているモディファイアやワークスペースでも検索が可能です（例：ソリッド化,ノード、スカルプト）")
